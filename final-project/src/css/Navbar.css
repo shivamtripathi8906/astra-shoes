@@ -1,0 +1,143 @@
+.navbar {
+  margin-top: 5px;
+  width: 98%;
+  height: auto;
+  /* border: 2px solid black; */
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0.3rem;
+  z-index: 999;
+  box-shadow: 0px 0px 7px #b9b7b7;
+}
+.navbar_left {
+  /* border: 2px solid black; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_right {
+  /* border: 2px solid blue; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 8%;
+  padding-right: 2%;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  width: 11%;
+  margin-top: 4px;
+  margin-left: 7%;
+  /* border: 2px solid rgb(145, 145, 145); */
+}
+.navbar_right a:hover {
+  color: rgb(0, 0, 0);
+  /* border-bottom: 1.5px solid rgb(153, 131, 6); */
+  border-bottom: 1.7px solid rgb(26, 78, 42);
+  transform: scale(1.04);
+}
+.navbar_right a {
+  font-size: 1.05rem;
+  color: black;
+  /* font-weight: 600; */
+}
+
+.child {
+  height: 10rem;
+  border: 2px solid white;
+}
+.height1 {
+  height: 100vh;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger {
+  width: 6%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 4.5%;
+  display: none;
+}
+.ham1 {
+  margin-top: 4px;
+  border-bottom: 2px solid black;
+}
+.hamb {
+  /* border: 2px solid green; */
+  display: none;
+
+  width: 88%;
+  position: absolute;
+  /* bottom:1px ;
+  float: right; */
+  border-radius: 3px;
+  box-shadow: 4px 5px 0.65rem #adabab;
+  background-color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* z-index: 10; */
+  height: 90vh;
+}
+.inputd {
+  width: 45%;
+  height: 20vh;
+}
+/* .input[type="text"] {
+  word-wrap: break-word;
+  word-break: break-all;
+} */
+.mobilenaviga {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  padding: 1rem 2rem 1rem 2rem;
+}
+.hamblogo {
+  width: 30%;
+  height: auto;
+}
+
+.hamblogo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2vh;
+}
+.hambLink {
+  font-size: 1.2rem;
+  margin-top: 1.7vh;
+  font-weight: 600;
+  margin-bottom: 1.7vh;
+}
+button {
+  height: auto;
+  padding: 0.5vh 5vw 0.5vh 5vw;
+  color: white;
+  outline: none;
+  background-color: rgb(198, 209, 194);
+  font-size: 1.2rem;
+  margin-top: 3vh;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 1px 5px 5px 1px #b9b7b7;
+}
+.foot_nav {
+  margin-top: 20vh;
+}

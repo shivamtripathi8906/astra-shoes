@@ -1,0 +1,27 @@
+.footer_main {
+  width: 100%;
+  height: auto;
+  background-color: rgb(27, 43, 21);
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer_sub {
+  height: auto;
+  padding: 3vh 5% 0% 5%;
+  width: 100%;
+  border-bottom: 2px solid rgb(250, 250, 250);
+  display: flex;
+  color: white;
+}
+.footerbox1 {
+  width: 40%;
+}
+.footerbox2 {
+  margin-left: 15%;
+  margin-top: 3vh;
+}
+.foot {
+  padding-top: 2vh;
+  text-align: center;
+  padding-bottom: 2vh;
+}

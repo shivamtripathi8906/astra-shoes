@@ -1,0 +1,45 @@
+.album_main {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid green; */
+  margin-bottom: 2vh;
+}
+.album_11 {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: auto;
+  padding-top: 15vh;
+}
+.cont2 {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photo_details {
+  width: 42%;
+  box-shadow: 0px 3.5px 7px #b9b7b7;
+  height: auto;
+  /* border: 2px solid rgb(9, 31, 8); */
+}
+.photo_details img {
+  width: 100%;
+  height: auto;
+}
+.details_data {
+  padding-top: 12%;
+  padding-bottom: 12%;
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 2px solid pink; */
+}
+
+.details_data > h4 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}

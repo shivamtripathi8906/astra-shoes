@@ -1,0 +1,51 @@
+.minwhowe {
+  height: auto;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.whoweare {
+  width: 100%;
+  height: 45rem;
+  /* border: 2px solid rgb(0, 0, 0); */
+  position: relative;
+}
+.whoweare img {
+  width: 100%;
+
+  height: 100%;
+}
+.whoweare1 {
+  position: absolute;
+  z-index: 40;
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+  top: 77%;
+  background: rgba(117, 151, 117, 0.301);
+  text-align: center;
+}
+.whoweare1_1 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+.whoweare_content {
+  width: 100%;
+  /* border: 2px solid black; */
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.whoweare_content p {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-top: 1rem;
+}
+.who_con1 {
+  width: 50%;
+  /* border: 2px solid black; */
+  padding: 5rem 2rem 2vh 2rem;
+}
+.who_con1 img {
+  width: 100%;
+  height: auto;
+}
